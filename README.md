@@ -199,6 +199,14 @@ a keyword to your different terminals:
     [:~/code/liquidprompt] develop ± prompt_tag mycode
     mycode [:~/code/liquidprompt] develop ±
 
+For adding a newline before the prompt mark, you can modify `LP_MARK_PREFIX`:
+
+    LP_PATH_LENGTH=1000
+    LP_PATH_KEEP=100
+    LP_MARK_PREFIX="\n=> "
+
+    [:~/my/very/very/very/long/path] master(+2/-1)+*
+    => ± 
 
 ### PUT THE PROMPT IN A DIFFERENT ORDER
 
